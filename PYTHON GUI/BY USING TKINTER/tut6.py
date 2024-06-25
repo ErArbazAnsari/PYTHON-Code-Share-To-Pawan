@@ -1,0 +1,15 @@
+from tkinter import *
+
+root=Tk()
+root.title("GUI APP")
+root.geometry('444x333')
+root.minsize(200,200)
+root.maxsize(500,500)
+text1=Label(text="This is Arbaz Ansari.")
+text1.pack()
+text2=Label(text="My Mail ID : arbaz.ansari2606@gmailcom")
+text2.pack()
+photo=PhotoImage(file="1.png")
+photo1=Label(image=photo)
+photo1.pack()
+root.mainloop()
